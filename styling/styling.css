@@ -1,0 +1,85 @@
+.grid {
+    text-align: left;
+}
+
+#maindiv.heading2 {
+
+    text-align: right;
+}
+
+
+.heading-name {
+    margin-left: 17px;
+    font-size: 30px;
+
+}
+
+.sub-heading {
+    margin-left: 40px;
+}
+
+
+.navbar {
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.basic-info {
+    grid-gap: 3;
+    border: 1px solid plum;
+    background-color: plum;
+    height: 35px;
+    width: 900px;
+    margin-left: 40px;
+}
+
+.name {
+    margin-top: 15px;
+    margin-left: 40px;
+
+}
+
+.box {
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.name2 {
+    margin-left: 0px;
+}
+
+.first {
+    margin-left: 40px;
+}
+
+.middle {
+    margin-left: 40px;
+}
+
+.last {
+    margin-left: 40px;
+}
+
+.student {
+    margin-left: 40px;
+    column-gap: 40px;
+}
+
+.box1 {
+    size: 40;
+}
+
+.box2 {
+    size: 40;
+
+}
+
+.degree {
+    margin-left: 40px;
+    column-gap: 40px;
+
+}
+
+.degree1 {
+    width: 30px;
+}

@@ -1,0 +1,50 @@
+.container {
+    border: 1px solid black;
+
+
+}
+
+.heading {
+    text-align: center;
+}
+
+body {
+    background: grey;
+}
+
+.row {
+    border: 0px solid orange;
+
+}
+
+.col {
+    border: 0px solid green;
+}
+
+#header {
+    background: pink;
+}
+
+#menu {
+    background: blanchedalmond;
+}
+
+#contain {
+    background: orange;
+}
+
+#image {
+    position: relative;
+    background: burlywood;
+
+
+}
+
+.img {
+    height: 200px;
+}
+
+#footer {
+    background: rebeccapurple;
+
+}

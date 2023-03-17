@@ -1,0 +1,22 @@
+.container {
+    border: 1px solid black;
+
+    padding: 10px;
+}
+
+.header {
+    text-align: center;
+}
+
+.row2 {
+    display: flex;
+}
+
+.dropdown-btn {
+    margin-top: 15px;
+
+}
+
+.duration {
+    margin-top: 15px;
+}
