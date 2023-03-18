@@ -10,71 +10,139 @@
 
 
 <body>
-    <div id="maindiv">
-        <div style="display: flex;justify-content: space-between; padding: 0 25px;" class="grid">
-            <div>
-                <img src="https://www.flaticon.com/free-icon/graduation-cap_686051">
-                <span class="heading-name">ACME CITY</span><br>
-                <span class="sub-heading">COLLEGE</span>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="https://cdn-icons-png.flaticon.com/128/1940/1940611.png">
+
             </div>
-            <div class="heading2">
-                <h3>ACME CITY COLLEGE</h3>
-                <span>123 Macine Street, Houston,TX,77002</span><br>
-                <span>ssonyi@gmail.com</span><br>
+
+            <div class="col-md-4">
+                <span class="acme"><b>ACME CITY</b></span><br>
+                <span class="college">COLLEGE</span>
+            </div>
+            <div class="col-md-6 right">
+                <span class="clg-name"><b>ACME CITY COLLEGE</b></span><br>
+                <span>123 Macine Street,Houston,TX,77002</span><br>
+                <span>agit@gmail.com</span><br>
                 <span>www.example.com</span><br>
-                <span>|123| 123456</span>
+                <span>|123|1234567</span>
             </div>
+
         </div>
         <hr>
-        <h2 class="navbar">STUDENT REGISTRATION FORM</h2>
-        <div class="basic-info">Basic Information</div>
-        <div class="name"><b>Full Name</b></div>
-        <div style="display: flex;" class="name2">
-            <div class="container text-center">
-                <div class="row align-items-start">
-                    <div class="col">
-                        One of three columns
+        <div class="row">
+            <div class="col-md-12">
+                <p class="nav">STUDENT REGISTRATION FORM</p>
+            </div>
+        </div>
+        <div class="row basicinfo">
+            <div class="col-md-12">
+                <p class="basic-info">Basic Information</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="fullname"><b>Full Name</b></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+
+                <div class="mb-3">
+                    <label for="firstname" class="form-label"></label>
+                    <input type="text" class="form-control" id="firstname" placeholder="">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="mb-3">
+                    <label for="middlename" class="form-label"></label>
+                    <input type="text" class="form-control" id="middlename" placeholder="">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="mb-3">
+                    <label for="lastname" class="form-label"></label>
+                    <input type="text" class="form-control" id="lasatname" placeholder="">
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <p>First Name</p>
+            </div>
+            <div class="col-md-4">
+                <p>Middle Name</p>
+            </div>
+            <div class="col-md-4">
+                <p>last Name</p>
+            </div>
+        </div>
+        <div class="row numberyear">
+            <div class="col-md-6">
+                <p><b>Student Number</b></p>
+            </div>
+            <div class="col-md-6">
+                <p><b>Year Level</b></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <!-- <label for="studentnumber" class="form-label"></label> -->
+                    <input type="number" class="form-control" id="studentnumber" placeholder="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected><b>Please Select</b></option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+
+            <div class="row font">
+                <div class="col-md-6">
+                    <p>e.g 1122337578</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="incoming">for incoming A,Y,"12"13</p>
+                </div>
+            </div>
+            <div class="row degreemail">
+                <div class="col-md-6">
+                    <p><b>Degree Programme</b></p>
+                </div>
+                <div class="col-md-6">
+                    <P><b>Email</b></P>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Please Select</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <!-- <label for="studentnumber" class="form-label"></label> -->
+                        <input type="text" class="form-control" id="email" placeholder="ex:myname@gmail.com">
                     </div>
-                    <div class="col">
-                        One of three columns
-                    </div>
-                    <div class="col">
-                        One of three columns
-                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <button type="button" class="btn btn-dark submit">Submit</button>
                 </div>
             </div>
         </div>
 
-        <div style="display: flex" class="student">
-            <div>
-                <b>
-                    <p>Student Number</p>
-                </b>
-                <input type="number" value="" class="box1" size="40">
-                <p>e.g. 11109867</p>
-            </div>
-            <div>
-                <b>
-                    <p>Year Level</p>
-                </b>
-                <input type="label" class="box2" value="Please Select" size="40"></label>
-                <p>for Incoming A,Y,"12"13</p>
-            </div>
-        </div>
-        <div class="degree" style="display: flex;">
-            <div>
-                <p><b>Degree Program</b></p>
 
-                <input type="button" value="Please Select" class="deg1">
-
-            </div>
-            <div>
-                <p><b>Email</b></p>
-                <input type="text" value="ex:myname@gmail.com" class="">
-            </div>
-        </div>
-
-    </div>
 
 </body>
 
